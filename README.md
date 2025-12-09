@@ -1,1 +1,2 @@
 # Sarthakag
+This project is a basic multi-page Student Portfolio Website built using HTML and simple CSS. It includes four pages — Home, About, Skills, and Contact — connected through a common navigation bar. The site demonstrates fundamental web development concepts such as page structure, CSS styling, float layout (for the About page), flexbox layout (for the Skills page), and an HTML contact form. It is designed to be clean, simple, and easy to understand for beginners.
