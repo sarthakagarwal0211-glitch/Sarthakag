@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        /* Navbar */
+        nav {
+            background: #333;
+            color: white;
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Home Section */
+        #home {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #home h1 {
+            font-size: 40px;
+        }
+
+        /* About Section */
+        #about {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        #about .container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        #about img {
+            width: 220px;
+            height: 220px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 60px 20px;
+        }
+
+        .skills-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            width: 280px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #333;
+            background: #e8e8e8;
+        }
+
+        /* Contact Form */
+        #contact {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #fafafa;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+
+        form button {
+            width: 100%;
+            padding: 12px;
+            background: #333;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background: #ff9800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Sarthak Agarwal</div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is a single-page portfolio website created using HTML and CSS.</p>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container">
+            <img src="https://www.profilebakery.com/wp-content/uploads/2023/04/ai-job-application-photo.jpg" alt="Profile">
+            <p>
+                Hello! I am a dedicated student passionate about technology and design.
+                I enjoy creating websites, learning new coding skills, and solving problems.
+                This portfolio represents my work, skills, and academic journey.
+                I always aim to improve myself and explore new opportunities in tech.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills & Projects</h2>
+
+        <div class="skills-container">
+
+            <div class="card" style="background:#fde9d9;">
+                <h3>Web Development</h3>
+                <p>Created responsive websites using HTML, CSS, and basic JavaScript.</p>
+            </div>
+
+            <div class="card" style="background:#e2f0d9;">
+                <h3>C Programming</h3>
+                <p>Experience in writing logic-based programs and solving problems.</p>
+            </div>
+
+            <div class="card" style="background:#d9e1f2;">
+                <h3>Mini Projects</h3>
+                <p>Developed small academic and hobby projects with proper documentation.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Subject" required>
+
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
